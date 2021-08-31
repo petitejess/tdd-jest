@@ -31,20 +31,20 @@ describe('repeatMessage error handling', () => {
   expect(() => {repeatMessage("hello", "2")}).not.toThrow();
   });
 
-  test("repeatMessage throws an error if its first argument is falsey.", () => {
-    expect(() => {repeatMessage("", 1)}).toThrow();
-    expect(() => {repeatMessage(0, 1)}).toThrow();
-    expect(() => {repeatMessage(null, 1)}).toThrow();
-    expect(() => {repeatMessage(false, 1)}).toThrow();
-    });
+  // test("repeatMessage throws an error if its first argument is falsey.", () => {
+  //   expect(() => {repeatMessage("", 1)}).toThrow();
+  //   expect(() => {repeatMessage(0, 1)}).toThrow();
+  //   expect(() => {repeatMessage(null, 1)}).toThrow();
+  //   expect(() => {repeatMessage(false, 1)}).toThrow();
+  //   });
     
-  test("repeatMessage should still work if its second argument is falsey.", () => {
-  expect(repeatMessage("hello", null)).toEqual("hello");
-  expect(repeatMessage("hello", false)).toEqual("hello");
-  expect(repeatMessage("hello", "")).toEqual("hello");
-  expect(repeatMessage("hello", 0)).toEqual("hello");
-  expect(repeatMessage("hello")).toEqual("hello");
+  // test("repeatMessage should still work if its second argument is falsey.", () => {
+  // expect(repeatMessage("hello", null)).toEqual("hello");
+  // expect(repeatMessage("hello", false)).toEqual("hello");
+  // expect(repeatMessage("hello", "")).toEqual("hello");
+  // expect(repeatMessage("hello", 0)).toEqual("hello");
+  // expect(repeatMessage("hello")).toEqual("hello");
   
-  })
+  // })
   
 });
