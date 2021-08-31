@@ -23,41 +23,41 @@ Seed file needs to make:
 
 
 describe('User table functionality as the app', () => {
-  test('User can view their own data ', () => {
-  
-  })
-  
-  test('User can sign up a new account ', () => {
-  
-  })
-  
-  // Golden path || happy path
-  test('User data can be edited with valid data', () => {
-  
-  })
-  
-  // Dark path || unhappy path
-  test('User data can not be edited with invalid data ', () => {
-  
-  })
-  
-  
-  
-  })
-  
-  describe('User CRUD functionaly as users', () => {
-  test('User can edit their own data ', () => {
-  
-  })
-  
-  test('User can not edit other users data', () => {
-  
-  })
-  
-  test('Admin can edit any users data', () => {
-  
-  })
-  
-  
-  
-  })
+test('User can view their own data ', () => {
+
+})
+
+test('User can sign up a new account ', () => {
+
+})
+
+// Golden path || happy path
+test('User data can be edited with valid data', () => {
+
+})
+
+// Dark path || unhappy path
+test('User data can not be edited with invalid data ', () => {
+
+})
+
+
+
+})
+
+describe('User CRUD functionaly as users', () => {
+test('User can edit their own data ', () => {
+
+})
+
+test('User can not edit other users data', () => {
+
+})
+
+test('Admin can edit any users data', () => {
+
+})
+
+
+
+})
