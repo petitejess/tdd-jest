@@ -1,0 +1,25 @@
+{
+  "name": "tdd-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node ./source/index.js",
+    "elephant": "echo \"Elephant!\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petitejess/tdd-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petitejess/tdd-js/issues"
+  },
+  "homepage": "https://github.com/petitejess/tdd-js#readme",
+  "devDependencies": {
+    "jest": "^27.1.0"
+  }
+}
